@@ -5,7 +5,11 @@ if __name__ == '__main__':
     print(transformed_list)
     print('-'*30)
 
-
+    new_transformed_list = []
+    for x in my_list:
+        new_transformed_list.append(x*x)
+    print(new_transformed_list)
+    print(new_transformed_list == transformed_list)
 
 
 
